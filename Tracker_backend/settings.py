@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$343lb2)lvlbx!*@zrfd9ay980sq!m2fk0@7xie*rn^kb&xgk5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['15.206.88.127','tracker.shinovadatabase.in']
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -102,7 +102,7 @@ DATABASES = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000"
+    "http://localhost:3000",'https://shinovatracker.netlify.app','https://tracker.shinovadatabase.in','https://milestone.shinova.in'
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
