@@ -102,7 +102,7 @@ DATABASES = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",'https://shinovatracker.netlify.app','https://tracker.shinovadatabase.in','https://milestone.shinova.in'
+    "http://localhost:3000",'https://shinovatracker.netlify.app','https://tracker.shinovadatabase.in','https://tracker.shinova.in'
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
